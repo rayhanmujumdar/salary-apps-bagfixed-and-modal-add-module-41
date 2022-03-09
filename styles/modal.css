@@ -1,0 +1,35 @@
+.modal-make{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.modals{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-200%) translateX(-50%);
+    border: 1px solid black;
+    min-width: 800px;
+    height: 700px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.modal-edit{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#cross{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px;
+    cursor: pointer;
+}
